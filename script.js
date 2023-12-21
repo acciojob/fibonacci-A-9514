@@ -1,7 +1,4 @@
-const fib=(num)=>{
-   if (num<2){
-      return num
-   } else {
-      return fib(num-1)+fib(num-2)
-   }
-}
+function F(num) {  if(num== 0) {    return 0;
+ }  if(num == 1) {    return 1;
+ }  else {    return F(num-1) + F(num-2);
+ }}
